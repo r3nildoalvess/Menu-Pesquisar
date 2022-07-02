@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    
+    <header>
+        
+        <nav class="nav-bar">
+            <div class="logo" >
+                <h1>logo</h1>
+            </div>
+            <!--Bnt de pesquisa + barra de pesquisar-->
+            <div class="search-box">
+                <input type="text"  class="search-txt" placeholder="  Pesquisar">
+                <a  class="button-pesquisar"  href="#">
+                    <img    src="/assets/css/img/lupa.png" alt="lupa" height="32px"  width="32px">
+                </a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+            <!--Icone do menu mobile-->
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img  class="icon" src="assets/css/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        
+        </nav>
+        <!--Menu mobile-->
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> Contato</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </div>
+
+    </header>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
